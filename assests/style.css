@@ -1,0 +1,14 @@
+.jumbotron {
+    background-color: darkmagenta;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn {
+    float: right;
+}
+
+.card {
+    background-color: black;
+    color: whitesmoke;
+}
