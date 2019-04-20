@@ -116,13 +116,13 @@ database.ref().on("child_added", function(childSnapshot) {
         $("<td>").text(trainName),
         $("<td>").text(destination),
         $("<td>").text(frequency),
-        $("<td>").text(nextTrain),
         $("<td>").text(trainArrival),
+        $("<td>").text(tMinutesTillTrain),
     );
         $("#schedule > tbody").append(newROw);
     });
-    // I don't really understand the timing of it all and it's not working
-
+    // I don't really understand the timing becuase it give me the current time
+    // instead of the time I put in as the train time
 
 
 
